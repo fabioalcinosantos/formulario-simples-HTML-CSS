@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen"> 
+    <title>Cadastro</title>
+</head>
+<body>
+      <div class="campo">
+        <h1 id="titulo">Cadastro de alunos Fabio Alcino Academy</h1>
+        <p id="subtitulo">Complete as informações</p>
+        <br>
+      </div>
+       
+      <form> 
+          <fieldset class="grupo">
+              <div class="campo">
+                  <label for="nome"><strong>Nome</strong></label>
+                  <input type="text" name="nome" id="nome" required>
+              </div>
+              <div class="campo">
+                  <label for="sobrenome"><strong>Sobrenome</strong></label>
+                  <input type="text" name="Sobrenome" id="sobrenome" required>
+              </div>
+          </fieldset>
+              
+          <div class="campo">
+              <label for="email"><strong>Email</strong></label>
+              <input type="email" name="email" id="email" required>
+          </div>
+
+          <div class="campo">
+              <label><strong>Qual arte marcial você pratica?</strong></label>
+              <label>
+        <input type="radio" name="devweb" value="Muay thai" checked>Muay thai</label>
+              <label>
+        <input type="radio" name="devweb" value="jitsu">Jiu-Jitsu</label>
+              <label>
+        <input type="radio" name="devweb" value="Boxe">Boxe</label>
+              <label>
+        <input type="radio" name="devwe" value="Muay thai feminino">Muay thai feminino</label>
+              <label>
+        <input type="radio" name="devweb" value="Carate">Karate </label>
+              <label>
+        <input type="radio" name="devweb" value="M.M.A">M.M.A</label>
+          </div>
+
+          <div class="campo">
+              <label for="senioridade"><strong>Nivel de aprendizado</strong></label>
+              <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Iniciante</option>
+                  <option>Intermediario</option>
+                  <option>Avançado</option>
+              </section>
+          </div>
+
+
+    <div class="campo"><br>
+<label><strong>Diz ai! Como é fazer parte da nossa equipe?</strong></label>
+<textarea rows="6" style="width: 26em" id="experiência" name="experiência"></textarea>
+    </div>
+<button class="botao" type="submit" onsubmit="">Concluido</button>
+
+  </form>
+      
+
+    
+</body>
+</html>
